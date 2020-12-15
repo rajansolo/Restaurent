@@ -1,0 +1,146 @@
+/*-------------------------------shared-------------------------------------*/
+.home, .about, .menu, .dishdetails, .contactus{
+  /* background: #807272; */
+  background: #292b2c;
+  color: white;
+}
+
+.breadcrumb{
+  background: #2c2828;
+  margin-top : 2px;
+  border: 1px solid white;
+
+}
+/*-----------------------------navbar-------------------------------------*/
+.navbar-dark {
+  /* background-color: #4E5283; */
+  background: #1d1e1f;
+}
+/*-------------------------------banner---------------------------------------*/
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: #292b2c ;
+  color:white;
+  border-radius: 0;
+}
+
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+/*--------------------------home Component----------------------------------------*/
+
+.home__content{
+  width: 80%;
+  margin: 0px auto;
+}
+
+.home__subcontent{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  min-height: 550px;
+}
+
+/*------------------------------Menu---------------------------------------------------*/
+.menu__dish__header{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;;
+}
+
+
+/*---------------------------About us component-----------------------------------------*/
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  min-height:400px;
+}
+
+
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+/*--------------------------------dishdetails-----------------*/
+
+
+.dishdetails__dishinfo{
+  background: #bda6a6;
+  height: 500px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+
+.dishdetails__comments{
+  overflow-y: scroll;
+  padding: 10px;
+  height: 500px;
+  margin-bottom: 10px;
+  color: white;
+  border: 1px solid white;
+
+}
+
+  
+.dishdetails__comments::-webkit-scrollbar {
+  display: none;
+  }
+
+.comments-list{
+  list-style-type:none;
+}
+
+
+/*----------------------------------Animation---------------------------------------*/
+.page-enter {
+  opacity: 0.01;
+  transform: translatex(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translatex(0%);
+  transition: all 0.3s ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translatex(0%);
+}
+
+.page-exit-active{
+  opacity: 0.01;
+  transform: translatex(100%);
+  transition: all 0.3s ease-out;
+}
+
+
+/*-----------------------------------Footer---------------------------------*/
+
+.footer{
+  /* background-color: #aa9a9a; */
+  background: #333638;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+  color: white;
+}
+
+.footer__info{
+  color: white;
+}
+
+.footer__nav{
+  color: white;
+}
+
+.footer__nav:hover{
+  color: rgb(209, 154, 175);
+  text-decoration: none;;
+}
